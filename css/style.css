@@ -37,7 +37,7 @@
 @font-face {
       font-family: "Classica Two";
       src: url("fonts/Classica Two.ttf") format("ttf"),
-      url("fonts/Classica Two.ttf") format("ttf");
+      url("https://github.com/Andrey-and-Alyona/wedding-invitation/blob/master/fonts/Classica%20Two.ttf") format("ttf");
       font-weight: normal;
       font-style: normal;
       font-display: swap;
