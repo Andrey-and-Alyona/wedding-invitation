@@ -2441,8 +2441,33 @@ body.offcanvason .oliven-nav-toggle {
     padding-bottom: 0px !important;
   }
 }
-/* @media screen and (max-width: 370px) {
-  frame.for_mobile {
+@media screen and (max-width: 370px) {
+  #rsvp .container .row {
+    height: 1450px !important;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 450px) {
+  #rsvp .container .row {
+    height: 1270px !important;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 500px) {
+  #rsvp .container .row {
     height: 1200px !important;
   }
-} */
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  #rsvp .container .row {
+    height: 1150px !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 650px) {
+  #rsvp .container .row {
+    height: 1200px !important;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 768px) {
+  #rsvp .container .row {
+    height: 1200px !important;
+  }
+}
