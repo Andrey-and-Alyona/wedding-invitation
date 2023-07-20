@@ -2441,3 +2441,8 @@ body.offcanvason .oliven-nav-toggle {
     padding-bottom: 0px !important;
   }
 }
+/* @media screen and (max-width: 370px) {
+  frame.for_mobile {
+    height: 1200px !important;
+  }
+} */
