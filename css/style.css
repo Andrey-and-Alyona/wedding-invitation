@@ -967,7 +967,7 @@ input[type=radio]:checked:before {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    background: #BD945A;
+    background: #f5dde2;
     margin: 15px 30px;
     border-radius: 50%;
 }
