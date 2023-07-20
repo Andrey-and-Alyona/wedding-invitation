@@ -33,6 +33,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&amp;family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&amp;display=swap');
 
+@font-face {
+      font-family: "Classica Two";
+      src: url("fonts/Classica Two.ttf") format("ttf"),
+      url("fonts/Classica Two.ttf") format("ttf");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+      }
+
 /* ===== Default style ===== */
 
 html,
@@ -660,7 +669,7 @@ input[type=radio]:checked:before {
 }
 
 #oliven-aside .oliven-logo span {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     text-transform: none;
     text-align: center;
@@ -696,9 +705,9 @@ input[type=radio]:checked:before {
 
 #oliven-aside .oliven-logo a span {
     display: block;
-    font-size: 36px;
+    font-size: 26px;
     color: #BD945A;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     display: block;
     margin-top: 0px;
@@ -1021,10 +1030,10 @@ body.offcanvason .oliven-nav-toggle {
     z-index: 15;
 }
 .hero-inner .hero-title {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     margin: 0 0 15px 0;
-    font-size: 120px;
+    font-size: 80px;
     color: #FFF;
     display: block;
     line-height: 1em;
@@ -1112,7 +1121,7 @@ body.offcanvason .oliven-nav-toggle {
     display: block;
     position: relative;
     top: 12px;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     font-size: 30px;
     color: #BD945A;
@@ -1124,7 +1133,7 @@ body.offcanvason .oliven-nav-toggle {
     display: block;
     position: relative;
     top: 12px;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     font-size: 60px;
     color: #BD945A;
@@ -1144,7 +1153,7 @@ body.offcanvason .oliven-nav-toggle {
     display: block;
     position: relative;
     top: 12px;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     font-size: 30px;
     color: #BD945A;
@@ -1189,7 +1198,7 @@ body.offcanvason .oliven-nav-toggle {
     color: #BD945A;
     font-size: 24px;
     font-weight: 400;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
 }
 
 .bridegroom .info p {
@@ -1272,7 +1281,7 @@ body.offcanvason .oliven-nav-toggle {
 #countdown .section-head h4 {
     position: relative;
     color: #fff;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     font-size: 60px;
     margin-bottom: 0;
@@ -1445,7 +1454,7 @@ body.offcanvason .oliven-nav-toggle {
     color: #BD945A;
     font-size: 24px;
     font-weight: 400;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     margin-bottom: 10px;
 }
 
@@ -1487,7 +1496,7 @@ body.offcanvason .oliven-nav-toggle {
 .organization .item-box {
     padding: 60px 30px;
     height: 100%;
-    background-color: #fff;
+    /* background-color: #fff; */
     border: 1px solid #F6F1F0;
     border-right: 0;
     -webkit-transition: all .4s;
@@ -1495,12 +1504,26 @@ body.offcanvason .oliven-nav-toggle {
     transition: all .4s;
 }
 
+.organization .item-box.item_box_1 {
+  background-color:#fadadd;
+}
+.organization .item-box.item_box_2 {
+  background-color:#ffdfeb;
+}
+.organization .item-box.item_box_3 {
+  background-color:#f5dde2;
+}
+.organization .item-box.item_box_4 {
+  background-color:#fff0f5;
+}
+
+
 .organization .item-box:last-of-type {
     border-right: 1px solid #F6F1F0;
 }
 
 .organization .item-box:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
 }
 
@@ -1581,7 +1604,7 @@ body.offcanvason .oliven-nav-toggle {
 .seeyou .section-head h4 {
     position: relative;
     color: #fff;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     font-size: 60px;
     margin-bottom: 0;
@@ -1653,7 +1676,7 @@ body.offcanvason .oliven-nav-toggle {
 }
 
 .gallery-box .gallery-detail h4 {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
@@ -1901,7 +1924,7 @@ body.offcanvason .oliven-nav-toggle {
 .footer2 h2 a span,
 .footer2 h2 span {
     display: block;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Classica Two', sans-serif;
     font-weight: 400;
     color: #000;
 }
@@ -2133,7 +2156,7 @@ body.offcanvason .oliven-nav-toggle {
 }
 .blog-page .post-cont .tag:hover,
 .blog-page .post-cont .date:hover {
-  color: #BD945A;  
+  color: #BD945A;
 }
 .blog-page .post-cont h5 {
     font-size: 27px;
@@ -2327,7 +2350,7 @@ body.offcanvason .oliven-nav-toggle {
     border: 1px solid #BD945A;
     color: #fff;
 }
-.blog-pagination-wrap li a i { 
+.blog-pagination-wrap li a i {
     font-size: 11px;
 }
 @media screen and (max-width: 768px) {
@@ -2378,4 +2401,35 @@ body.offcanvason .oliven-nav-toggle {
     .bg-fixed {
         background-attachment: scroll !important;
     }
+}
+
+/* mainstyle */
+@media screen and (max-width: 991px) {
+#rsvp div.container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+#organization {
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+#friends {
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+#whenwhere {
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+.for_desktop {
+  display: none !important;
+}
+}
+@media screen and (min-width: 991px) {
+  .for_mobile {
+    display: none !important;
+  }
+  #rsvp {
+    padding-bottom: 0px !important;
+  }
 }
