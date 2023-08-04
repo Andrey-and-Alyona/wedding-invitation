@@ -1505,7 +1505,7 @@ body.offcanvason .oliven-nav-toggle {
     padding: 60px 30px;
     height: 100%;
     /* background-color: #fff; */
-    border: 1px solid #F6F1F0;
+    /* border: 1px solid #F6F1F0; */
     border-right: 0;
     -webkit-transition: all .4s;
     -o-transition: all .4s;
