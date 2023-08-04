@@ -2446,22 +2446,22 @@ body.offcanvason .oliven-nav-toggle {
 }
 @media screen and (max-width: 370px) {
   #rsvp .container .row {
-    height: 1250px !important;
+    height: 1450px !important;
   }
 }
 @media screen and (min-width: 370px) and (max-width: 450px) {
   #rsvp .container .row {
-    height: 1150px !important;
+    height: 1300px !important;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 500px) {
   #rsvp .container .row {
-    height: 1200px !important;
+    height: 1260px !important;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
   #rsvp .container .row {
-    height: 1150px !important;
+    height: 1140px !important;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 650px) {
@@ -2471,8 +2471,9 @@ body.offcanvason .oliven-nav-toggle {
 }
 @media screen and (min-width: 650px) and (max-width: 768px) {
   #rsvp .container .row {
-    height: 1200px !important;
+    height: 1180px !important;
   }
+
 }
 
 
@@ -2488,4 +2489,34 @@ body.offcanvason .oliven-nav-toggle {
 }
 #organization {
   padding-top: 60px !important;
+}
+#rsvp {
+  padding-top: 0px !important;
+}
+
+@media screen and (max-width: 1240px) {
+  #rsvp {
+    background-image: none !important;
+    background-color: #faf8f7;
+  }
+}
+#rsvp {
+  background-image: none !important;
+  background-color: #faf8f7;
+}
+.main_button {
+  background: none !important;
+  color: white !important;
+  transition: 0.7s;
+}
+a.for_main_button {
+  margin-top: 15px !important;
+}
+.main_button:hover {
+  background-color: #BD945A !important;
+  color: white !important;
+}
+
+.hero-subtitle {
+  font-size: 14px !important;
 }
