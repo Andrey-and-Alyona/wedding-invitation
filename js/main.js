@@ -110,7 +110,7 @@
         loop: true
         , margin: 30
         , mouseDrag: true
-        , autoplay: false
+        , autoplay: true
         , dots: true
         , responsiveClass: true
         , responsive: {
@@ -130,7 +130,7 @@
         loop: true
         , margin: 30
         , mouseDrag: true
-        , autoplay: false
+        , autoplay: true
         , dots: true
         , responsiveClass: true
         , responsive: {

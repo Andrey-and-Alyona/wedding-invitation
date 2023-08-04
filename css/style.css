@@ -1153,7 +1153,7 @@ body.offcanvason .oliven-nav-toggle {
     color: #000;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 0;
 }
 
@@ -2473,4 +2473,19 @@ body.offcanvason .oliven-nav-toggle {
   #rsvp .container .row {
     height: 1200px !important;
   }
+}
+
+
+
+
+/* mainstyle */
+#whenwhere {
+  padding-top: 30px !important;
+}
+#couple {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+#organization {
+  padding-top: 0px !important;
 }

@@ -40,3 +40,74 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&amp;family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&amp;display=swap'); */
 /* @import url('https://github.com/Andrey-and-Alyona/wedding-invitation/blob/master/fonts/Classica%20Two.ttf'); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+жених и невеста
+
+
+
+
+
+<div class="row mb-60">
+    <div class="col-md-6">
+        <div class="item mb-30 animate-box" data-animate-effect="fadeInRight">
+            <div class="img"> <img src="images/groom.jpg" alt=""> </div>
+            <div class="info valign">
+                <div class="full-width">
+                    <h6>Андронов Андрей <i class="ti-heart"></i></h6> <span>Жених</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo error iure reprehenderit at eaque amet.</p>
+                    <!-- <div class="social">
+                        <div class="full-width">
+                            <a href="https://vk.com/andrusha_andronov" class="icon" target="_blank"> <i class="fa fa-vk"></i> </a>
+                            <a href="https://t.me/Povelitel_ognia" class="icon" target="_blank"> <i class="fa fa-telegram"></i> </a>
+                            <a href="https://instagram.com/andruha_andronov?igshid=NTc4MTIwNjQ2YQ==" class="icon" target="_blank"> <i class="fa fa-instagram"></i> </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="item toright mb-30 animate-box" data-animate-effect="fadeInLeft">
+            <div class="img"> <img src="images/bride.jpg" alt=""> </div>
+            <div class="info valign">
+                <div class="full-width">
+                    <h6>Курасова Алена <i class="ti-heart"></i></h6> <span>Невеста</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet natus ad, ducimus ratione reiciendis perspiciatis.</p>
+                    <!-- <div class="social">
+                        <div class="full-width">
+                          <a href="https://vk.com/kurasik4" class="icon" target="_blank"> <i class="fa fa-vk"></i> </a>
+                          <a href="https://t.me/kurasik4" class="icon" target="_blank"> <i class="fa fa-telegram"></i> </a>
+                          <a href="https://instagram.com/kurasik4?igshid=NTc4MTIwNjQ2YQ==" class="icon" target="_blank"> <i class="fa fa-instagram"></i> </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
