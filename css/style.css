@@ -2446,12 +2446,12 @@ body.offcanvason .oliven-nav-toggle {
 }
 @media screen and (max-width: 370px) {
   #rsvp .container .row {
-    height: 1450px !important;
+    height: 1250px !important;
   }
 }
 @media screen and (min-width: 370px) and (max-width: 450px) {
   #rsvp .container .row {
-    height: 1180px !important;
+    height: 1150px !important;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 500px) {
