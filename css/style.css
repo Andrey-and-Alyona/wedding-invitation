@@ -2505,7 +2505,7 @@ body.offcanvason .oliven-nav-toggle {
   background-color: #faf8f7;
 }
 .main_button {
-  background: none !important;
+  /* background: none !important; */
   color: white !important;
   transition: 0.7s;
 }
@@ -2513,7 +2513,7 @@ a.for_main_button {
   margin-top: 15px !important;
 }
 .main_button:hover {
-  background-color: #BD945A !important;
+  /* background-color: #BD945A !important; */
   color: white !important;
 }
 
