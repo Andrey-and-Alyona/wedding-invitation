@@ -1531,24 +1531,24 @@ body.offcanvason .oliven-nav-toggle {
     border-right: 1px solid #F6F1F0;
 }
 
-.organization .item-box:hover {
+/* .organization .item-box:hover {
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
-}
+} */
 
-.organization .item-box:hover p {
+/* .organization .item-box:hover p {
     color: #fff;
-}
+} */
 
-.organization .item-box:hover .title {
+/* .organization .item-box:hover .title {
     color: #FFF;
-}
+} */
 
 .organization .item-box .numb {
     font-size: 75px;
     margin-bottom: 15px;
     color: transparent;
-    -webkit-text-stroke: 1px #BD945A;
+    -webkit-text-stroke: 1px #ffffff;
 }
 
 .organization .item-box .title {
