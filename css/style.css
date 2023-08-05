@@ -1074,7 +1074,7 @@ body.offcanvason .oliven-nav-toggle {
 /* bounce */
 .hero-inner .arrow {
     position: relative;
-    top: 27vh;
+    top: 20vh;
     width: 100%;
     text-align: center;
     z-index: 8;
