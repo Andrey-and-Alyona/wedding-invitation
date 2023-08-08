@@ -1523,10 +1523,10 @@ body.offcanvason .oliven-nav-toggle {
   background-color:#C68485;
 }
 .organization .item-box.item_box_4 {
-  background-color:#6A433F;
+  background-color:#999B85;
 }
 .organization .item-box.item_box_5 {
-  background-color:#999B85;
+  background-color:#F6F0F0;
 }
 
 
@@ -1551,7 +1551,7 @@ body.offcanvason .oliven-nav-toggle {
     font-size: 75px;
     margin-bottom: 15px;
     color: transparent;
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px #000;
 }
 
 .organization .item-box .title {
