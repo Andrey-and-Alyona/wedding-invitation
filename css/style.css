@@ -2451,12 +2451,15 @@ body.offcanvason .oliven-nav-toggle {
 }
 @media screen and (max-width: 370px) {
   #rsvp .container .row {
-    height: 1450px !important;
+    height: 1500px !important;
+  }
+  #rsvp .for_mobile {
+    height: 1500px !important;
   }
 }
 @media screen and (min-width: 370px) and (max-width: 450px) {
   #rsvp .container .row {
-    height: 1300px !important;
+    height: 1400px !important;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 500px) {
@@ -2474,12 +2477,13 @@ body.offcanvason .oliven-nav-toggle {
     height: 1200px !important;
   }
 }
-@media screen and (min-width: 650px) and (max-width: 768px) {
+@media screen and (min-width: 650px) and (max-width: 968px) {
   #rsvp .container .row {
     height: 1180px !important;
   }
 
 }
+
 
 
 
