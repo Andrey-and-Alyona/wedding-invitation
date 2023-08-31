@@ -145,27 +145,6 @@
             }
         }
     });
-    // Gift Registry owlCarousel
-    $('.gift .owl-carousel').owlCarousel({
-        loop: true
-        , margin: 30
-        , mouseDrag: true
-        , autoplay: true
-        , dots: false
-        , responsiveClass: true
-        , responsive: {
-            0: {
-                margin: 10
-                , items: 2
-            }
-            , 600: {
-                items: 3
-            }
-            , 1000: {
-                items: 4
-            }
-        }
-    });
     // Smooth Scrolling
     $('a[href*="#"]')
     // Remove links that don't actually link to anything
@@ -202,40 +181,6 @@
       }
     }
   });
-    // Gallery
-    $(window).on("load", function () {
-    var e = $(".gallery-filter")
-        , a = $("#gallery-filter");
-    e.isotope({
-        filter: "*"
-        , layoutMode: "masonry"
-        , animationOptions: {
-            duration: 750
-            , easing: "linear"
-        }
-    }), a.find("a").on("click", function () {
-        var o = $(this).attr("data-filter");
-        return a.find("a").removeClass("active"), $(this).addClass("active"), e.isotope({
-            filter: o
-            , animationOptions: {
-                animationDuration: 750
-                , easing: "linear"
-                , queue: !1
-            }
-        }), !1
-    })
-});
-    // Magnific Popup
-    $(".img-zoom").magnificPopup({
-    type: "image"
-    , closeOnContentClick: !0
-    , mainClass: "mfp-fade"
-    , gallery: {
-        enabled: !0
-        , navigateByImgClick: !0
-        , preload: [0, 1]
-    }
-});
 
      // RSVP FORM
     var form = $('.contact__form'),
